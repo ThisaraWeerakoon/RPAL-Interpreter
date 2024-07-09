@@ -18,7 +18,7 @@ provided with identical input programs.
 - **Why:** RPAL is a simple functional programming language,so it is easy to start with RPAL
 - **Problem Solved:** Implemented a fully funcational interpreter including a lexical analyzer and a parser.Any program written in RPAL language can be executed in our programme.
 - **What We Learned:** How to design a lexical analyzer,then how to parse the grammar and create abstract syntax tree and how to simplify it into syntax tree.Finally executing it on a CSE machine. Learned the underlying principles of programming languages.
-- 
+  
 ## Table of Contents 
 
 - [Installation](#installation)
@@ -31,7 +31,7 @@ provided with identical input programs.
 
 ## Installation
 
-Follow these steps to set up the development environment for the project:
+Follow these steps to setup the code:
 
 1. Clone the repository:
     ```sh
@@ -39,46 +39,32 @@ Follow these steps to set up the development environment for the project:
     ```
 2. Navigate to the project directory:
     ```sh
-    cd ECommerce_Platform_DataBase_Project
+    cd RPAL-Interpreter
     ```
-3. Install the required dependencies for the backend:
+3. Compile the code for interpreter:
+   I have built a <b>Makefile</b> to compile the code in one command:
     ```sh
-    cd server
-    npm install
+    make
     ```
-4. Install the required dependencies for the frontend:
+    
+   Or you can directly compile using following command
     ```sh
-    cd client
-    npm install
+    g++ -o myrpal main.cpp
     ```
-5. Set up the MySQL database:
-    - Create a new database.
-    - Import the provided SQL schema to set up the tables and initial data.
-    - <b>database.sql</b>
-6. Configure environment variables:
-    - Create a `.env` file in the backend directory and add your database credentials.
-7. Start the backend server:
-    ```sh
-    cd server
-    node index.js
-    ```
-8. Start the frontend server:
-    ```sh
-    cd client
-    npm start
-    ```
+    Now <b>myrpal.exe</b> created which is the RPAL interpreter
 
 ## Usage
 
-To use the platform, follow these steps:
+Now to use the RPAL interpreter,you can test <b>myrpal.exe</b> with any programme written in RPAL language. In this repo there is a provided sample RPAL program <b>RPAL_test</b>.To test it use following command:
 
-1. Register an account or log in as a guest.
-2. Browse through the product catalog and select items to add to your cart.
-3. View your cart and proceed to checkout.
-4. Enter delivery and payment details to complete the purchase.
-5. Access the admin panel for detailed sales and inventory reports.
-
-
+To execute program directly:
+```sh
+./myrpal rpal_test
+```
+To print the AST, use the −𝑎𝑠𝑡 switch.
+```sh
+./myrpal -ast rpal_test
+```
 https://github.com/ThisaraWeerakoon/ECommerce_Platform_DataBase_Project/assets/83450623/6bfa00ac-e220-4056-b46a-63c1c468f3a1
 
 
