@@ -65,6 +65,7 @@ To print the AST, use the −𝑎𝑠𝑡 switch.
 ```sh
 ./myrpal -ast rpal_test
 ```
+After above commands you may see something similar below as output.
 https://github.com/ThisaraWeerakoon/ECommerce_Platform_DataBase_Project/assets/83450623/6bfa00ac-e220-4056-b46a-63c1c468f3a1
 
 
