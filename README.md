@@ -1,15 +1,24 @@
 <h1 align="center">RPAL Interpreter</h1>
-<p align="center"><i>Single Vendor E-Commerce Platform </i></p>
+<p align="center"><i>Developing an interpreter for RPAL language </i></p>
 
 ## Description
 
-This project is a full-stack implementation of a single vendor e-commerce platform for a local chain retailer. The platform focuses on consumer electronics and toys in its initial phase, supporting detailed product variants, inventory management, and a comprehensive reporting system for monitoring and analytics. 
+The project entailed the development of a software system capable of analyzing and
+parsing the RPAL programming language. [RPAL(Right-reference Pedagogic Algorithmic Language) ](https://rpal.sourceforge.net/) is a simple functional programming language.
+This involved constructing a lexical analyzer to
+break down RPAL code into its fundamental components, followed by the creation of an
+Abstract Syntax Tree (AST) to represent the program's structure and logic. Subsequently, a
+parsing algorithm was implemented to transform this AST into a Standardize Tree (ST).
+Additionally, the system was required to execute RPAL programs using a CSE (Compiled
+Stack Environment) machine. The ultimate objective was to ensure that the output of our
+system matched that of an established RPAL interpreter, specifically "rpal.exe", when
+provided with identical input programs.
 
-- **Motivation:** To help a local retailer remain competitive by establishing a robust online presence.
-- **Why:** The retailer needed to reach the technology side to compete with larger e-commerce platforms.
-- **Problem Solved:** The platform manages product inventory, supports online purchases, and generates detailed sales and delivery reports.
-- **What We Learned:** How to design and implement a comprehensive e-commerce system, manage database relationships and transactions, and create a seamless user experience.
-
+- **Motivation:** To get hands on experience in developing of a programming language.
+- **Why:** RPAL is a simple functional programming language,so it is easy to start with RPAL
+- **Problem Solved:** Implemented a fully funcational interpreter including a lexical analyzer and a parser.Any program written in RPAL language can be executed in our programme.
+- **What We Learned:** How to design a lexical analyzer,then how to parse the grammar and create abstract syntax tree and how to simplify it into syntax tree.Finally executing it on a CSE machine. Learned the underlying principles of programming languages.
+- 
 ## Table of Contents 
 
 - [Installation](#installation)
@@ -26,7 +35,7 @@ Follow these steps to set up the development environment for the project:
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/ThisaraWeerakoon/ECommerce_Platform_DataBase_Project
+    git clone https://github.com/ThisaraWeerakoon/RPAL-Interpreter
     ```
 2. Navigate to the project directory:
     ```sh
