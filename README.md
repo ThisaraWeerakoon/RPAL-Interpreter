@@ -95,6 +95,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Further the AST is also converted into Standarize Tree
 - Finally program is exeuted in <b>CSE Machine (Control Stack Environement Machine)</b> and given the final output
 - You can find the grammar rules of the RPAL <b>RPAL_Grammar.pdf</b>
+- If you try to implement the code repo and want to see whether the interpretation is correct,you can check with the standard RPAL interpreter <RPAL.Zip</b> file
 
 
 ## How to Contribute
