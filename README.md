@@ -1,6 +1,8 @@
 <h1 align="center">RPAL Interpreter</h1>
 <p align="center"><i>Developing an interpreter for RPAL language </i></p>
 
+![0_RV_mQ55Aj-vww8l3](https://github.com/ThisaraWeerakoon/RPAL-Interpreter/assets/83450623/cfcd9da1-0277-4878-9b3d-c7fd6814115b)
+
 ## Description
 
 The project entailed the development of a software system capable of analyzing and
