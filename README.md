@@ -72,35 +72,26 @@ After above commands you may see something similar below as output.
 
 
 ## Doucmentation
-You can access the software report which explains  <b>SRS Document.pdf</b>
-and Entity Relationship Diagram <b>ER Diagram.pdf</b>
+You can access the comprehensive report including the folder structure and other essential theory biehind implementtion  <b>Report.pdf</b>
 
 ## Credits
 
 We used several third-party assets and tutorials, including:
 
-- [React Documentation](https://reactjs.org/docs/getting-started.html)
-- [Node.js Documentation](https://nodejs.org/en/docs/)
-- [MySQL Documentation](https://dev.mysql.com/doc/)
+- [RPAL Language](https://rpal.sourceforge.net/)
+- [How to build a Makefile](https://www.softwaretestinghelp.com/cpp-makefile-tutorial/#:~:text=A%20makefile%20typically%20starts%20with,specified%20by%20the%20target%20label.)
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Badges
-
-![React](https://img.shields.io/badge/React-17.0.2-blue)
-![Node.js](https://img.shields.io/badge/Node.js-14.17.0-green)
-![MySQL](https://img.shields.io/badge/MySQL-8.0.25-orange)
 
 ## Features
 
-- User registration and login
-- Product catalog with variants
-- Shopping cart and checkout system
-- Inventory management
-- Comprehensive reporting system
-- Delivery estimation module
+- Implemented a lexical analyzer which creates tokens.You can find the lexical rules <b>Lexical_Rules.pdf</b>
+- After lexical analyzer,program is parsed and create [Abstract Syntax Tree](https://en.wikipedia.org/wiki/Abstract_syntax_tree) 
+- Further the AST is also converted into Standarize Tree
+- Finally program is exeuted in <b>CSE Machine (Control Stack Environement Machine)</b> and given the final output
 
 ## How to Contribute
 
