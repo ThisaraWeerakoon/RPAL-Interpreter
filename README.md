@@ -66,11 +66,13 @@ To print the AST, use the −𝑎𝑠𝑡 switch.
 ./myrpal -ast rpal_test
 ```
 After above commands you may see something similar below as output.
-https://github.com/ThisaraWeerakoon/ECommerce_Platform_DataBase_Project/assets/83450623/6bfa00ac-e220-4056-b46a-63c1c468f3a1
+
+<img width="1366" alt="Screenshot 2024-07-09 at 22 26 05" src="https://github.com/ThisaraWeerakoon/RPAL-Interpreter/assets/83450623/27e48cb4-1c2a-42c2-aa29-bb9eb7f6e8c3">
+
 
 
 ## Doucmentation
-You can access the software requirement specification <b>SRS Document.pdf</b>
+You can access the software report which explains  <b>SRS Document.pdf</b>
 and Entity Relationship Diagram <b>ER Diagram.pdf</b>
 
 ## Credits
