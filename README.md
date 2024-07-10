@@ -90,10 +90,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Features
 
-- Implemented a lexical analyzer which creates tokens.You can find the lexical rules <b>Lexical_Rules.pdf</b>
+- Implemented a lexical analyzer which creates tokens.You can find the lexical rules <b>RPAL_Lex.pdf</b>
 - After lexical analyzer,program is parsed and create [Abstract Syntax Tree](https://en.wikipedia.org/wiki/Abstract_syntax_tree) 
 - Further the AST is also converted into Standarize Tree
 - Finally program is exeuted in <b>CSE Machine (Control Stack Environement Machine)</b> and given the final output
+- You can find the grammar rules of the RPAL <b>RPAL_Grammar.pdf</b>
+
 
 ## How to Contribute
 
